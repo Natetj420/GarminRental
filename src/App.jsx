@@ -82,7 +82,7 @@ export default function Home() {
         {/* Center Image */}
         <div className="flex justify-center items-center w-full lg:w-1/2">
           <img
-            src="/src/assets/images/garmin-inreach-mini2.png"
+            src="/src/assets/images/garmin-inreach-mini2.webp"
             alt="Garmin InReach Mini 2"
             className="w-[300px] md:w-[400px] lg:w-[460px] object-contain drop-shadow-2xl"
           />
