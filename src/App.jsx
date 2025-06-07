@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { FaDollarSign, FaTruck } from "react-icons/fa";
 import { motion } from "framer-motion";
+import garminImg from "./assets/images/garmin-inreach-mini2.webp";
+
 
 export default function Home() {
   const navigate = useNavigate();
@@ -81,12 +83,12 @@ export default function Home() {
 
         {/* Center Image */}
         <div className="flex justify-center items-center w-full lg:w-1/2">
-          <img
-            src="/src/assets/images/garmin-inreach-mini2.webp"
-            alt="Garmin InReach Mini 2"
-            className="w-[300px] md:w-[400px] lg:w-[460px] object-contain drop-shadow-2xl"
-          />
-        </div>
+        <img
+  src={garminImg}
+  alt="Garmin InReach Mini 2"
+  className="w-[300px] md:w-[400px] lg:w-[460px] object-contain drop-shadow-2xl"
+/> 
+</div>
 
         {/* Right 2 Cards */}
         <div className="flex flex-col gap-6 w-full lg:w-1/4">
