@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import App from './App'
-import Contact from './Pages/contact' 
+import Contact from './pages/contact' 
 import './index.css'
 import Checkout from "./pages/checkout";
 import Terms from "./pages/terms";
